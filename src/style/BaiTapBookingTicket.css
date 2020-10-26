@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'fontGame';
+    src: url('../Component/Pony.ttf');
+}
+
+.bookingMovie{
+    font-family: 'fontGame';
+}
+
+.bgMovie { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('../bgmovie.jpg') no-repeat center center/cover;
+}
+
+.overlayBgMovie {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.booking__title {
+    font-size: 2.8em;
+    color: coral;
+    text-transform: uppercase;
+}
+
+.booking__screen {
+    font-size: 1.5em;
+    color: #fff;
+
+    margin-top: 40px;
+}
+
+.booking__listSeat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.booking__choosingSeat {
+    font-size: 2.5em;
+    color: #fff;
+    text-transform: uppercase;
+
+    margin-top: 30px;
+}
+
+.hangGhe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 15px auto;
+    width: 80%;
+}
+
+.ghe{
+    border: 3px solid orange;
+    width: 45px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.rowNumber{
+    /* font-size: 25px; */
+    width: 45px;
+    height: 35px;
+    background: none;
+    border:none;
+    margin-left: 50px;
+    margin-bottom: 1%;
+    font-size: 30px;
+    color: yellow;
+    
+}
+
+.firstChar{
+    color: yellow;
+    font-size: 35px;
+    margin-right: 15px;
+}
+
+.screen{
+    border-bottom: 50px solid rgb(255, 159, 95);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 100;
+    width:80%;
+    filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+    font-size: 25px;
+    color: #fff;
+
+    margin: 0 auto;
+}
+
+
+.gheDuocChon {
+    border: 3px solid orange;
+
+    background: orange;
+    color: #000;
+
+    cursor: no-drop !important;
+    border-radius: 5px;
+    width: 45px;
+    height: 35px;
+
+}
+
+.gheDangChon {
+    background: rgb(109, 238, 109);
+    border: 3px solid rgb(109, 238, 109);
+    color: #000;
+
+    cursor: pointer;
+    border-radius: 5px;
+    width: 45px;
+    height: 35px;
+}
+
+
+.information__seat {
+    color: #fff;
+    font-size: 2em;
+}
+
+.fs-15 {
+    font-size: 1.5em;
+}
+
+.iconHuyGhe {
+    font-size: 1.5em;
+    color: red;
+    cursor: pointer;
+}
